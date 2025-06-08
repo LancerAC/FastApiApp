@@ -1,7 +1,7 @@
 from sqlalchemy import select
 
-from fastapi.database import new_session, TaskOrm
-from fastapi.schemas import STaskAdd, STask
+from fastapiLearn.database import new_session, TaskOrm
+from fastapiLearn.schemas import STaskAdd, STask
 
 
 class TaskRepository:
